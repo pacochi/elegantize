@@ -1,0 +1,59 @@
+html {
+	background-color: #FEF;
+	color: #323;
+	min-height: 100vh;
+}
+
+h1 {
+	font-size: medium;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 1em;
+}
+
+p {
+	width: 100%;
+}
+
+div {
+	padding: 1em 0.5em 0px 0.5em;
+}
+
+textarea {
+	width: 20em;
+	height:2em;
+	border: none;
+	overflow: auto;
+	background-color: #FEF;
+	color: #323;
+}
+
+textarea#in {
+	width: 40em;
+	height: 3em;
+	background-color: #FFF;
+}
+
+button {
+	background-color: #FDF;
+	color: #323;
+	border: 1px solid #323;
+	font-size: medium;
+}
+
+textarea:disabled, button:disabled {
+	visibility: hidden;
+}
+
+address {
+	position: absolute;
+	z-index: 1;
+	bottom: 0px;
+	right: 0px;
+	padding: 1em;
+	font-style: normal;
+	text-align: right;
+}
